@@ -4,20 +4,21 @@
  * and open the template in the editor.
  */
 package Clases;
-
+ 
 /**
  *
  * @author JUAN
  */
 public class Tripleta {
     private int fila,columna;
-    private Object valor;
+    private Object valor,f,c,v;
    
+
     
     Tripleta(int f, int c, Object v){  // constructor de la clase y las variables que inicializa
         fila = f;
         columna = c;
-        valor = (int)v;
+        valor = v;
     }
     
     // metodos de la clase tripleta
@@ -30,7 +31,7 @@ public class Tripleta {
     }
     
     public void asignaValor(Object v){
-        valor = (int)v;
+        valor = v;
     }
     
     public int retornaFila(){
